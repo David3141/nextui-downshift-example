@@ -1,11 +1,11 @@
 import { NextUIProvider} from "@nextui-org/react"
 
+ import DownshiftExample from "./components/DownshiftExample"
+
 function App() {
   return (
     <NextUIProvider>
-      <h1 className="text-4xl font-bold underline">
-        Hello world!
-      </h1>
+      <DownshiftExample />
     </NextUIProvider>
   )
 }
